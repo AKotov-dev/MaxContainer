@@ -19,7 +19,7 @@
 1. Скачайте [Dockerfile](https://github.com/AKotov-dev/MaxContainer/blob/main/Dockerfile) из этого репозитория  
 2. Установите [DockerManager (rpm/deb)](https://github.com/AKotov-dev/docker-manager/releases), загрузите в него `Dockerfile`:  
    **ПКМ → Создать образ из Dockerfile → Файлы проекта → Добавить файлы**
-4. Введите имя создаваемого образа, например **max**  
+4. Введите имя создаваемого образа **max**  
 5. Нажмите **ОК** и дождитесь завершения сборки  
    В процессе сборки Docker загрузит официальный пакет `MAX.deb` напрямую с сервера MAX  
 6. Скачайте ярлык [MAXContainer.desktop](https://github.com/AKotov-dev/MaxContainer/blob/main/MAXContainer.desktop) и запустите его
