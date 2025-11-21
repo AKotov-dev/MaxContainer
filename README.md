@@ -29,7 +29,7 @@
 
 ## Удаление
 
-Для удаления образа и контейнеров воспользуйтесь скриптом [remove-max.sh](https://github.com/AKotov-dev/MaxContainer/blob/main/remove-max.sh).
+Для удаления образа и контейнера воспользуйтесь скриптом [remove-max.sh](https://github.com/AKotov-dev/MaxContainer/blob/main/remove-max.sh) или прямо в `DockerManager`.
 
 Каталог `~/.config/MAX` удаляется только с правами root (если требуется полная очистка).
 
