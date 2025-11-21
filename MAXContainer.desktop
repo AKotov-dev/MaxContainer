@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=MAXContainer
 Comment=Запуск MAX в изолированном контейнере с сохранением данных
-Exec=bash -c 'CIDS=$(docker ps -q --filter "ancestor=max-debian:latest"); [ -n "$CIDS" ] && docker stop $CIDS; xhost +local:docker >/dev/null 2>&1; docker run --rm --net=host --env DISPLAY --device=/dev/dri -v $HOME/.config/MAX:/root/.config/MAX max-debian:latest /opt/MAX/MAX --no-sandbox --no-background; xhost -local:docker >/dev/null 2>&1'
+Exec=bash -c 'CIDS=$(docker ps -q --filter "ancestor=max:latest"); [ -n "$CIDS" ] && docker stop $CIDS; xhost +local:docker >/dev/null 2>&1; docker run --rm --net=host --env DISPLAY --device=/dev/dri -v $HOME/.config/MAX:/root/.config/MAX max:latest /opt/MAX/MAX --no-sandbox --no-background; xhost -local:docker >/dev/null 2>&1'
 Terminal=false
 Type=Application
 
