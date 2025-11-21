@@ -20,7 +20,7 @@
 2. Установите [DockerManager (rpm/deb)](https://github.com/AKotov-dev/docker-manager/releases) и загрузите в него `Dockerfile`:  
    **ПКМ → Создать образ из Dockerfile → Файлы проекта → Добавить файлы**
 3. Введите имя создаваемого образа **max**  
-4. Нажмите **ОК** и дождитесь завершения сборки  
+4. Нажмите **ОК** и дождитесь завершения сборки (вес сборки ~700 MB) 
 5. Скачайте ярлык [MAXContainer.desktop](https://github.com/AKotov-dev/MaxContainer/blob/main/MAXContainer.desktop) и запустите его
 
 Настройки мессенджера сохраняются в каталоге: `~/.config/MAX`
